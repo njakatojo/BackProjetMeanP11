@@ -22,7 +22,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'public', 'views')); 
 app.use(express.json())
 app.use(cors({
-    origin: 'https://fron-projet-mean-p11-g9oz.vercel.app',
+    origin: 'https://m1p10mean-njaka-joston-g9oz.vercel.app',
     credentials: true,
 }));
 const utilitaire = new Utilitaire()
